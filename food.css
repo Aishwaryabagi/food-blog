@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    list-style:none;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(133, 203, 62);
+    position: fixed;
+    width:100%;
+    padding:12px 18px;
+    color:black;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:black;
+    font-size:18px;
+    align-items: center;
+    margin:28px;
+    padding:12px 18px;
+    border-radius: 6px;
+    transition:all .45s ease;
+}
+.navbar a:hover{
+    color:gray;
+}
+section{
+    padding:108px 11%  92px;
+}
+.home{
+    width:100%;
+    height:700px;
+    background:url(https://images.pexels.com/photos/3026802/pexels-photo-3026802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat:no repeat;
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+}
+.home-text{
+    padding:470px 0;
+}
+.home-text h1{
+    color:rgb(22, 12, 12);
+    font-size: 38px;
+    margin-bottom: 12px; 
+}   
+.home-text p{
+    color:black;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.card-container{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    cursor:pointer;
+    margin :4px;
+}
+.card-container .card{
+    flex-basis: 20%;
+    padding:2px 8px;
+
+}
+.card img{
+    width:130%;
+    transition:0.5s ease-in-out;
+    border-radius: 12px;
+}
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:brown;
+    margin-bottom: 19px;
+}
+.card-container .card h2{
+    text-align: center;
+    color: black;
+    font-size:22px;
+}
+.card-container .card button{
+    margin-left:70px;
+    font-size:15px;
+    border-radius: 12px;
+    background-color:rgb(133, 203, 62);
+    padding:8px 10px;
+    cursor:pointer;
+}
+.box{
+    background-color: rgb(220, 255, 192);
+    padding: 50px 25px;
+    margin:20px;
+    border-radius: 22px;
+    text-align: center;
+}
+.box-container .text h1{
+    font-size: 33px;
+    margin-bottom: 9px; 
+}
+.box-container .text p{
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    background: black;
+    color:#fff;
+    margin-top: 30px;
+}
+footer .container{
+    padding:20px 40px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+}
+footer a{
+    color:#fff;
+    margin-inline: 12px;
+}
+footer a:hover{
+    color:gray;
+}
